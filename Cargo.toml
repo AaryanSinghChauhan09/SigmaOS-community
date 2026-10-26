@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-community"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Community and social features"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-community"
+readme = "README.md"
+keywords = ["community", "social", "collaboration"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
