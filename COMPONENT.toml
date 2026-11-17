@@ -3,12 +3,12 @@ name = "SigmaOS-community"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "community component"
+description = "Part of SigmaOS architecture: SigmaOS-community"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
